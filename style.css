@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left top, purple, aqua, purple);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(132, 0, 255);
+}
+
+.container{
+    background: rgba(255,255,255,0.3);
+    padding: 20px;
+    box-shadow: 0 4px 10px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+}
+
+.input{
+    padding: 10px;
+    width: 70%;
+    background: rgba(255,255,255,0.5);
+    border-color: rgba(255,255,255,0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    color: blueviolet;
+    outline: none;
+}
+
+.error{
+    color: red;
+}
